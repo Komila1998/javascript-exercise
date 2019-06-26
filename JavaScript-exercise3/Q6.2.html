@@ -2,18 +2,14 @@
 <html>
 <body>
 <button onclick="myFunction()">Try it</button>
-
 <p id="demo"></p>
-
 <script>
 var fruits = ["Apple"];
 document.getElementById("demo").innerHTML = fruits;
-
 function myFunction() {
-  fruits.unshift("Lemon","Pineapple");
-  document.getElementById("demo").innerHTML = fruits;
+fruits.push("apple","peach");
+document.getElementById("demo").innerHTML = fruits;
 }
 </script>
-
 </body>
 </html>
